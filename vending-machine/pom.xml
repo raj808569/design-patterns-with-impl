@@ -5,25 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>design-patterns-in-java</artifactId>
+    <artifactId>vending-machine</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
+                    <compileSourceRoots>src/main/java</compileSourceRoots>
+
                     <source>8</source>
                     <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <packaging>pom</packaging>
-<modules>
-    <module>singleton</module>
-    <module>weather-station</module>
-    <module>vending-machine</module>
-</modules>
-
 </project>
